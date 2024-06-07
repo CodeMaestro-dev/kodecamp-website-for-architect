@@ -5,7 +5,7 @@ import slide_numbers from "/assets/images/slide-numbers.svg";
 
 import Arrow from "./Arrow";
 
-export default function LandingPage() {
+export default function HeroSection() {
   return (
     <div className="flex gap-[122.3px]">
       <div className="flex flex-col justify-center items-start px-3 gap-[90px]">
