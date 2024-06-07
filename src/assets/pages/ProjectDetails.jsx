@@ -5,7 +5,7 @@ import project_explaination_3 from "/assets/images/project-explaination-3.png"
 export default function ProjectDetails() {
   return (
     <div className="py-[29.14px] px-[20px] lg:px-[135px] ">
-      <div>
+      <div className="border-b-[1px] border-[#F2F2F2] pb-[30px]">
         <p className="text-[#BDBDBD] text-[64px] font-light">Sample</p>
         <p className="text-[#333333] text-[50px] font-semibold">Project 1</p>
       </div>
