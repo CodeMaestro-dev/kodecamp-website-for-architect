@@ -12,7 +12,7 @@ export default function Projects() {
   return (
     <div className="py-[29.14px] px-[135px]">
       <div className="mb-[60px]">
-        <p className="uppercase text-[#BDBDBD] text-[64px] font-light">Our</p>
+        <p className="text-[#BDBDBD] text-[64px] font-light">Our</p>
         <p className="text-[#333333] text-[50px] font-semibold">Projects</p>
       </div>
       <div className="flex flex-col gap-[60px]">

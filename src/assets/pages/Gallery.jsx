@@ -16,7 +16,7 @@ export default function Projects() {
   return (
     <div className="py-[29.14px] px-[135px]">
       <div>
-        <p className="uppercase text-[#BDBDBD] text-[64px] font-light">
+        <p className="text-[#BDBDBD] text-[64px] font-light">
           Project
         </p>
         <p className="text-[#333333] text-[50px] font-semibold">Lorum</p>
