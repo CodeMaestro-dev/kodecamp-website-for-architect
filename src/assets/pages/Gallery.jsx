@@ -17,9 +17,9 @@ export default function Projects() {
     <div className="py-[29.14px] px-[20px]  lg:px-[135px] ">
       <div>
         <p className="text-[#BDBDBD] text-[64px] font-light">
-          Project
+          Photo
         </p>
-        <p className="text-[#333333] text-[50px] font-semibold">Lorum</p>
+        <p className="text-[#333333] text-[50px] font-semibold">Gallery</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-[30px] mt-[61px]">

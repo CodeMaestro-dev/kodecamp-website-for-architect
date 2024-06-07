@@ -13,11 +13,11 @@ export default function ProjectDetails() {
         <div>
           <img src={project_explaination_1} alt="an office with dektops" className="w-full h-full"/>
         </div>
-        <div className="flex">
-          <div className="w-[30%]">
+        <div className="flex flex-col lg:flex-row">
+          <div className="w-full lg:w-[30%]">
             <img src={project_explaination_2} alt="a meeting room" className="w-full h-full"/>
           </div>
-          <div className="w-[70%] p-[30px]">
+          <div className="w-full lg:w-[70%] p-0 lg:p-[30px] mt-5 lg:mt-0">
             <p className="">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry&apos;s standard dummy text

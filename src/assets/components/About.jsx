@@ -6,7 +6,7 @@ import about_3 from "/assets/images/about-3.png";
 
 export default function About() {
   return (
-    <div className="bg-[#FBFBFB] flex flex-col lg:flex-row mt-[120px] pl-[100px] pe-[70px]">
+    <div className="bg-[#FBFBFB] flex flex-col lg:flex-row mt-[120px] pl-2 pe-2 lg:pl-[100px] lg:pe-[70px]">
       <div className="flex gap-[30px] w-full lg:w-[55%]">
         <div className="flex flex-col gap-[30px]">
           <img src={about_1} alt="a picture of a building with glass walls" />

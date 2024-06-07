@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <div className="flex flex-col lg:flex-row py-[29.14px] px-[20px] lg:px-[135px] items-center">
-      <div className="flex justify-between w-full">
+      <div className="flex justify-between w-full md:w-fit">
         <Link to="/">
           <img src={logo} alt="logo" />
         </Link>
@@ -64,7 +64,7 @@ export default function Navbar() {
         </div>) : (<div></div>)
       )}
       
-      <ul className="hidden md:flex gap-[20px] md:gap-[40px] lg:gap-[60px] items-center ml-0 mt-[20px] md:mt-0 md:ml-[100px] lg-[330px]">
+      <ul className="border border-red-500 hidden md:flex gap-[20px] md:gap-[40px] lg:gap-[60px] items-center ml-0 mt-[20px] md:mt-[20px] lg:ml-[330px]">
         <li className=" border-t border-b border-t-black  border-b-black w-[80px] text-center">
           <Link to="/" className="uppercase">
             Main
