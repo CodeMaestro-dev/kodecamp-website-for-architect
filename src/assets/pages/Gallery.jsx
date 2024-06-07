@@ -14,7 +14,7 @@ import slide_numbers from "/assets/images/slide-numbers.svg";
 
 export default function Projects() {
   return (
-    <div className="py-[29.14px] px-[135px]">
+    <div className="py-[29.14px] px-[20px]  lg:px-[135px] ">
       <div>
         <p className="text-[#BDBDBD] text-[64px] font-light">
           Project

@@ -10,7 +10,7 @@ import ProjectDescription from "../components/ProjectDescription";
 
 export default function Projects() {
   return (
-    <div className="py-[29.14px] px-[135px]">
+    <div className="py-[29.14px] px-[20px] lg:px-[135px] ">
       <div className="mb-[60px]">
         <p className="text-[#BDBDBD] text-[64px] font-light">Our</p>
         <p className="text-[#333333] text-[50px] font-semibold">Projects</p>

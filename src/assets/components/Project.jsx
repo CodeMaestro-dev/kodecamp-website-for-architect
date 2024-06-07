@@ -13,16 +13,16 @@ export default function Project() {
         Our Projects
       </h2>
       <div className="flex flex-col gap-[30px] mt-[60px]">
-        <div className="flex gap-[30px]">
+        <div className="flex gap-[30px] flex-col lg:flex-row">
           <img src={project_1} alt="" />
-          <img src={project_2} alt="" />
+          <img src={project_2} alt="" />  
         </div>
-        <div className="flex gap-[30px]">
+        <div className="flex gap-[30px] flex-col lg:flex-row">
           <img src={project_3} alt="" />
           <img src={project_4} alt="" />
           <img src={project_5} alt="" />
         </div>
-        <div>
+        <div className="self-end">
           <Arrow text="All Projects" color="black"/>
         </div>
       </div>

@@ -34,7 +34,7 @@ export default function Contact() {
             className="bg-[#F3F3F3] pl-[21px] pt-[15px] h-[147px]"
           />
         </form>
-        <div className="flex-1">
+        <div className="flex-1 hidden lg:block">
           <img src={contact_us} alt="" className="w-100" />
         </div>
       </div>
